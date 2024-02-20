@@ -67,8 +67,6 @@ jobs:
           githubToken: ${{ github.token }}
         env:
           APP_ID: 0288ae00-9473-4cb9-8871-d8abb390610b
-          APP_HOST: http://example.com
-          APP_ENV: Pre-Production
           
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v2
